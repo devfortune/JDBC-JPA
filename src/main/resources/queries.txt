@@ -1,0 +1,6 @@
+insert into course (id, name, author)
+values(4, 'John', 'Author');
+
+select * from course;
+
+delete from course where id=3
